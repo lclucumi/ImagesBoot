@@ -12,8 +12,8 @@
 
 <p float="center">
 <p float="left">
-  <img src="./img/Interseccion.png" width="260" />
-  <img src="./img/Left.png" width="260" /> 
+  <img src="./img/Interseccion.png" width="460" />
+  <img src="./img/Left.png" width="460" /> 
 </p>
 <p float="left">
   <b>Intersección (A∩B)</b>

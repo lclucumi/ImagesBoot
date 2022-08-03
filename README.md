@@ -10,7 +10,7 @@
 
 ### 5. Dado los siguientes diagramas indique a qué tipo de JOIN corresponde cada uno:
 
-![alt-text-1]("./img/Interseccion.png" "title-1") ![alt-text-2]("./img/Left.png" "title-2")
+![alt-text-1](./img/Interseccion.png "title-1") ![alt-text-2](./img/Left.png "title-2")
 
 <p float="center">
 <p float="left">

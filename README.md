@@ -21,16 +21,18 @@
     </p>
 </p>
 
+<p align="center">
 <table>
   <tr>
     <td>First Screen Page</td>
      <td>Holiday Mention</td>
   </tr>
   <tr>
-    <td><img src="./img/Interseccion.png" width=360 height=160></td>
-    <td><img src="./img/Interseccion.png" width=360 height=160></td>
+    <td><img src="./img/Interseccion.png" width=360 height=260></td>
+    <td><img src="./img/Interseccion.png" width=360 height=260></td>
   </tr>
  </table>
+ </p>
 
 <p align="center">
   <img width="460" height="260" src="./img/Right.png">

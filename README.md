@@ -10,11 +10,6 @@
 
 ### 5. Dado los siguientes diagramas indique a qué tipo de JOIN corresponde cada uno:
 
-<p float="left">
-  <img src="./img/Interseccion.png" width="100" />
-  <img src="./img/Left.png" width="100" /> 
-</p>
-
 <p float="center">
 <p float="left">
   <img src="./img/Interseccion.png" width="100" />
@@ -23,6 +18,7 @@
 <p float="left">
   <b>Intersección (A∩B)</b>
   <b>Diferencia (A-B)</b>
+</p>
 </p>
 
 <p align="center">

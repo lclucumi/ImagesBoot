@@ -28,8 +28,8 @@
      <td>Holiday Mention</td>
   </tr>
   <tr>
-    <td><img src="./img/Interseccion.png" width=360 height=260></td>
-    <td><img src="./img/Interseccion.png" width=360 height=260></td>
+    <td><img src="./img/Interseccion.png" width=460 height=260></td>
+    <td><img src="./img/Interseccion.png" width=460 height=260></td>
   </tr>
  </table>
  </p>

@@ -13,8 +13,8 @@
 <p align="center">
 <table>
   <tr>
-    <td>Intersección (A∩B)</td>
-    <td><b>Diferencia (A-B)</b></td>
+    <td> <b> Intersección (A∩B) </b> </td>
+    <td> <b> Diferencia (A-B) </b> </td>
   </tr>
   <tr>
     <td><img src="./img/Interseccion.png" width=460 height=260></td>
@@ -26,8 +26,8 @@
  <p align="center">
 <table>
   <tr>
-    <td>Diferencia (B-A)</td>
-    <td>Unión (AUB)</td>
+    <td> <b> Diferencia (B-A) </b> </td>
+    <td> <b> Unión (AUB) </b> </td>
   </tr>
   <tr>
     <td><img src="./img/Right.png" width=460 height=260></td>

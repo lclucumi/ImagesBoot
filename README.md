@@ -27,8 +27,8 @@
      <td>Holiday Mention</td>
   </tr>
   <tr>
-    <td><img src="./img/Interseccion.png" width=270 height=480></td>
-    <td><img src="./img/Interseccion.png" width=270 height=480></td>
+    <td><img src="./img/Interseccion.png" width=360 height=160></td>
+    <td><img src="./img/Interseccion.png" width=360 height=160></td>
   </tr>
  </table>
 

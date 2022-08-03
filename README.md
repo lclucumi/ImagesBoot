@@ -15,7 +15,7 @@
       <img src="./img/Interseccion.png" width="460" />
       <img src="./img/Left.png" width="460" /> 
     </p>
-    <p align="middle">
+    <p align="middle" hspace="20">
       <b>Intersección (A∩B)</b>
       <b>Diferencia (A-B)</b>
     </p>

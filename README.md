@@ -21,6 +21,19 @@
     </p>
 </p>
 
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="./img/Interseccion.png" width=270 height=480></td>
+    <td><img src="./img/Interseccion.png" width=270 height=480></td>
+    <td><img src="./img/Interseccion.png" width=270 height=480></td>
+  </tr>
+ </table>
+
 <p align="center">
   <img width="460" height="260" src="./img/Right.png">
 </p>

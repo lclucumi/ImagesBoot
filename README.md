@@ -12,7 +12,7 @@
 
 <p float="left">
   <img src="./img/Interseccion.png" width="100" />
-  <img src="./img/Left.png" /> 
+  <img src="./img/Left.png" width="100" /> 
 </p>
 
 <p float="center">

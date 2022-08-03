@@ -10,40 +10,28 @@
 
 ### 5. Dado los siguientes diagramas indique a qué tipo de JOIN corresponde cada uno:
 
-<p align="middle" hspace="20">
-    <p float="left">
-      <img src="./img/Interseccion.png" width="460" />
-      <img src="./img/Left.png" width="460" /> 
-    </p>
-    <p align="middle">
-      <b>Intersección (A∩B)</b>
-      <b>Diferencia (A-B)</b>
-    </p>
-</p>
-
 <p align="center">
 <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
+    <td>Intersección (A∩B)</td>
+    <td>Diferencia (A-B)</td>
   </tr>
   <tr>
     <td><img src="./img/Interseccion.png" width=460 height=260></td>
-    <td><img src="./img/Interseccion.png" width=460 height=260></td>
+    <td><img src="./img/Left.png" width=460 height=260></td>
   </tr>
  </table>
  </p>
-
-<p align="center">
-  <img width="460" height="260" src="./img/Right.png">
-</p>
-<p align="center">
-  <b>Diferencia (B-A)</b>
-</p>
-
-<p align="center">
-  <img width="460" height="260" src="./img/LeftRight.png">
-</p>
-<p align="center">
-  <b>Unión (AUB)</b>
-</p>
+ 
+ <p align="center">
+<table>
+  <tr>
+    <td>Diferencia (B-A)</td>
+    <td>Unión (AUB)</td>
+  </tr>
+  <tr>
+    <td><img src="./img/Right.png" width=460 height=260></td>
+    <td><img src="./img/LeftRight.png" width=460 height=260></td>
+  </tr>
+ </table>
+ </p>

@@ -15,14 +15,14 @@
 <p align="left">
   <img width="460" height="260" src="./img/Interseccion.png">
 </p>
-<p align="center">
+<p align="left">
   <b>Intersección (A∩B)</b>
 </p>
 
 <p align="right">
   <img width="460" height="260" src="./img/Left.png">
 </p>
-<p align="center">
+<p align="right">
   <b>Diferencia (A-B)</b>
 </p>
 </p>

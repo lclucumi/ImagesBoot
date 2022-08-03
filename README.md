@@ -11,7 +11,7 @@
 ### 5. Dado los siguientes diagramas indique a qué tipo de JOIN corresponde cada uno:
 
 
-<p align="center">
+<p float="center">
 <p float="left">
   <img width="460" height="260" src="./img/Interseccion.png">
 </p>

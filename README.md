@@ -11,6 +11,10 @@
 ### 5. Dado los siguientes diagramas indique a qué tipo de JOIN corresponde cada uno:
 
 ![alt-text-1](./img/Interseccion.png "title-1") ![alt-text-2](./img/Left.png "title-2")
+{% gp [number]-[layout] %}
+![image description]("./img/Interseccion.png")
+![image description]("./img/Left.png")
+{% endgp %}
 
 <p float="center">
 <p float="left">

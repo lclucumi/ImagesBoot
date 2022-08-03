@@ -12,17 +12,17 @@
 
 
 <p align="center">
-<p align="left">
+<p float="left">
   <img width="460" height="260" src="./img/Interseccion.png">
 </p>
-<p align="left">
+<p float="left">
   <b>Intersección (A∩B)</b>
 </p>
 
-<p align="right">
+<p float="right">
   <img width="460" height="260" src="./img/Left.png">
 </p>
-<p align="right">
+<p float="right">
   <b>Diferencia (A-B)</b>
 </p>
 </p>

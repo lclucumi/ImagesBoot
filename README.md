@@ -14,7 +14,7 @@
 <table>
   <tr>
     <td>Intersección (A∩B)</td>
-    <td>Diferencia (A-B)</td>
+    <td><b>Diferencia (A-B)</b></td>
   </tr>
   <tr>
     <td><img src="./img/Interseccion.png" width=460 height=260></td>

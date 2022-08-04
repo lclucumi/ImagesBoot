@@ -87,7 +87,7 @@ SELECT * FROM temporary_act;
 <p align="center">
   <img width="460" height="300" src=".img/explainPlanEx7.png">
 </p>
-```mysql
+```
 {
   "query_block": {
     "select_id": 1,
@@ -126,7 +126,7 @@ SELECT * FROM temporary_act;
 <p align="center">
   <img width="460" height="300" src=".img/explainPlanEx7.png">
 </p>
-```mysql
+```
 {
   "query_block": {
     "select_id": 1,

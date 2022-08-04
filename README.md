@@ -1,13 +1,5 @@
 ## Primera parte
 
-### 1. ¿A qué se denomina JOIN en una base de datos?
-
-### 2. Nombre y explique 2 tipos de JOIN.
-
-### 3. ¿Para qué se utiliza el GROUP BY?
-
-### 4. ¿Para qué se utiliza el HAVING?
-
 ```mysql
 SELECT genre_id mo FROM movies mo 
 UNION 

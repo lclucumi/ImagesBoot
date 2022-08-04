@@ -46,9 +46,8 @@ SET SQL_SAFE_UPDATES = 1;
 
 #### 6. Crear una tabla temporal copia de la tabla movies.
 ```mysql
-CREATE TEMPORARY TABLE temporary_movies
-SELECT *
-FROM movies;
+CREATE TEMPORARY TABLE temporary_movies AS
+(SELECT * FROM movies);
 
 -- Otra opción
 CREATE TEMPORARY TABLE temporary_movies

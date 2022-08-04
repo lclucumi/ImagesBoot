@@ -85,7 +85,7 @@ SELECT * FROM temporary_act;
 
 #### Explain plan Ej.6
 <p align="center">
-  <img width="460" height="300" src=".img/explainPlanEx7.png">
+  <img width="460" height="300" src=".img/explainPlanEx6.png">
 </p>
 
 

@@ -82,8 +82,66 @@ SELECT * FROM temporary_act;
 ```
 
 #### 10. Utilizar el explain plan para analizar las consultas del Ej.6 y 7.
-```mysql
 
+#### Explain plan Ej.6
+<p align="center">
+  <img width="460" height="300" src=".img/explainPlanEx7.png">
+</p>
+```mysql
+{
+  "query_block": {
+    "select_id": 1,
+    "cost_info": {
+      "query_cost": "2.45"
+    },
+    "table": {
+      "table_name": "temporary_movies",
+      "access_type": "ALL",
+      "rows_examined_per_scan": 22,
+      "rows_produced_per_join": 22,
+      "filtered": "100.00",
+      "cost_info": {
+        "read_cost": "0.25",
+        "eval_cost": "2.20",
+        "prefix_cost": "2.45",
+        "data_read_per_join": "33K"
+      },
+      "used_columns": [
+        "id",
+        "created_at",
+        "updated_at",
+        "title",
+        "rating",
+        "awards",
+        "release_date",
+        "length",
+        "genre_id"
+      ]
+    }
+  }
+}
+```
+
+#### Explain plan Ej.7
+<p align="center">
+  <img width="460" height="300" src=".img/explainPlanEx7.png">
+</p>
+
+
+```mysql
+{
+  "query_block": {
+    "select_id": 1,
+    "table": {
+      "delete": true,
+      "table_name": "temporary_movies",
+      "access_type": "ALL",
+      "rows_examined_per_scan": 22,
+      "filtered": "100.00",
+      "attached_condition": "(`movies_db`.`temporary_movies`.`awards` < 5)"
+    }
+  }
+}
 ```
 
 #### 11. ¿Qué son los índices? ¿Para qué sirven?

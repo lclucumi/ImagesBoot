@@ -54,12 +54,16 @@ SELECT * FROM temporary_movies;
 
 #### 7. Eliminar de esa tabla temporal todas las películas que hayan ganado menos de 5 awards.
 ```mysql
-DROP TEMPORARY TABLE temporary_movies;
+DELETE * FROM temporary_movies WHERE awards < 5;
 ```
 
 #### 8. Obtener la lista de todos los géneros que tengan al menos una película.
 ```mysql
-
+SELECT gen.name, COUNT(*) as cantidad_peliculas FROM genres gen
+INNER JOIN movies mo
+ON gen.id = mo.genre_id
+GROUP BY gen.name
+HAVING cantidad_peliculas >= 1;
 ```
 
 #### 9. Obtener la lista de actores cuya película favorita haya ganado más de 3 awards. 

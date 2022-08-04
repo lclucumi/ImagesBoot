@@ -8,6 +8,12 @@
 
 ### 4. ¿Para qué se utiliza el HAVING?
 
+```
+SELECT genre_id mo FROM movies mo 
+UNION 
+SELECT id gen FROM genres gen;
+```
+
 ### 5. Dado los siguientes diagramas indique a qué tipo de JOIN corresponde cada uno:
 
 <p align="center">

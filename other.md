@@ -85,7 +85,7 @@ SELECT * FROM temporary_act;
 
 #### Explain plan Ej.6
 <p align="center">
-  <img width="460" height="300" src=".img/explainPlanEx6.png">
+  <img width="460" height="300" src="img/explainPlanEx6.png">
 </p>
 
 
@@ -125,8 +125,9 @@ SELECT * FROM temporary_act;
 ```
 
 #### Explain plan Ej.7
-  <img width="460" height="300" src=".img/explainPlanEx7.png">
-
+<p align="center">
+  <img width="460" height="300" src="img/explainPlanEx6.png">
+</p>
 
 ```mysql
 {

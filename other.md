@@ -71,19 +71,24 @@ DROP TEMPORARY TABLE temporary_movies
 
 #### 9. Obtener la lista de actores cuya película favorita haya ganado más de 3 awards. 
 ```mysql
+
 ```
 
 #### 10. Utilizar el explain plan para analizar las consultas del Ej.6 y 7.
 ```mysql
+
 ```
 
 #### 11. ¿Qué son los índices? ¿Para qué sirven?
-
+Son estructuras de datos que se crean con la sentencia CREATE INDEX y mejoran la velocidad de recuperación de datos de las tablas, son utilizados para la optimización de consultas, la mejora sustancial de tiempos de respuesta en queries complejar, porque mejoran el acceso a los datos y evitan escaneos de los datos de una tabla. 
 
 #### 12. Crear un índice sobre el nombre en la tabla movies.
 ```mysql
+CREATE INDEX movies_title_idx
+ON movies (title);
 ```
 
 #### 13. Chequee que el índice fue creado correctamente.
 ```mysql
+SHOW INDEX FROM movies;
 ```

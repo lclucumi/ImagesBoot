@@ -54,7 +54,7 @@ SELECT * FROM temporary_movies;
 
 #### 7. Eliminar de esa tabla temporal todas las películas que hayan ganado menos de 5 awards.
 ```mysql
-DROP TEMPORARY TABLE temporary_movies
+DROP TEMPORARY TABLE temporary_movies;
 ```
 
 #### 8. Obtener la lista de todos los géneros que tengan al menos una película.

@@ -49,11 +49,6 @@ SET SQL_SAFE_UPDATES = 1;
 CREATE TEMPORARY TABLE temporary_movies AS
 (SELECT * FROM movies);
 
--- Otra opción
-CREATE TEMPORARY TABLE temporary_movies
-SELECT id,created_at,updated_at,title,rating,awards,release_date,length,genre_id
-FROM movies;
-
 SELECT * FROM temporary_movies;
 ```
 

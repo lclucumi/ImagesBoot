@@ -1,0 +1,89 @@
+ ##  :closed_lock_with_key: SQL 3 - :movie_camera: Movies DB :school_satchel::books:
+
+#### 1. Explicar el concepto de normalización y para que se utiliza.
+La normalización es un proceso estandarizado en el que se aplican una serie de reglas para organizar la base de datos, de manera que, se eliminan redundancias e inconsistencias de dependencia en el diseño de las tablas, evitando así la realización de queries o consultas innecesariamente complejas además de proteger la integridad, favorecer la interpretación y eficiencia para quien la gestione.
+
+#### 2. Agregar una película a la tabla movies.
+```mysql
+INSERT INTO `movies` 
+VALUES (23,timestamp '2020-09-26 21:22:23',CURRENT_TIMESTAMP,'Buscando a Nemo',7.9,3,'2010-10-04 00:00:00',120,5);
+```
+
+#### 3. Agregar un género a la tabla genres.
+```mysql
+INSERT INTO `genres` 
+VALUES (13,timestamp '2019-06-21 02:00:26',CURRENT_TIMESTAMP,'Romántico',13,1);
+```
+
+#### 4. Asociar a la película del Ej 2. con el género creado en el Ej. 3.
+```mysql
+UPDATE movies
+SET genre_id = 13 
+WHERE title = "Buscando a Nemo" AND rating = 7.9 AND id <> 0;
+
+-- Otra opción
+SET SQL_SAFE_UPDATES = 0;
+UPDATE movies
+SET genre_id = 13
+WHERE last_name = "Buscando a Nemo" AND rating = 7.9;
+SET SQL_SAFE_UPDATES = 1;
+```
+
+#### 5. Modificar la tabla actors para que al menos un actor tenga como favorita la película agregada en el Ej.2.
+```mysql
+UPDATE actors
+SET favorite_movie_id = 20
+WHERE last_name = 'Ackles' AND id <> 0;
+
+-- Otra opción
+SET foreign_key_checks = 0 ;
+UPDATE actors
+SET favorite_movie_id = 22
+WHERE first_name = 'Jensen' AND last_name = 'Ackles';
+SET foreign_key_checks = 1;
+SET SQL_SAFE_UPDATES = 1;
+```
+
+#### 6. Crear una tabla temporal copia de la tabla movies.
+```mysql
+CREATE TEMPORARY TABLE temporary_movies
+SELECT id,created_at,updated_at,title,rating,awards,release_date,length,genre_id
+FROM movies 
+Limit 0;
+
+-- Otra opción
+CREATE TEMPORARY TABLE temporary_movies
+SELECT *
+FROM movies;
+
+SELECT * FROM temporary_movies;
+```
+
+#### 7. Eliminar de esa tabla temporal todas las películas que hayan ganado menos de 5 awards.
+```mysql
+DROP TEMPORARY TABLE temporary_movies
+```
+
+#### 8. Obtener la lista de todos los géneros que tengan al menos una película.
+```mysql
+
+```
+
+#### 9. Obtener la lista de actores cuya película favorita haya ganado más de 3 awards. 
+```mysql
+```
+
+#### 10. Utilizar el explain plan para analizar las consultas del Ej.6 y 7.
+```mysql
+```
+
+#### 11. ¿Qué son los índices? ¿Para qué sirven?
+
+
+#### 12. Crear un índice sobre el nombre en la tabla movies.
+```mysql
+```
+
+#### 13. Chequee que el índice fue creado correctamente.
+```mysql
+```

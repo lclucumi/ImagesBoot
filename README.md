@@ -8,7 +8,7 @@
 
 ### 4. ¿Para qué se utiliza el HAVING?
 
-```
+```mysql
 SELECT genre_id mo FROM movies mo 
 UNION 
 SELECT id gen FROM genres gen;

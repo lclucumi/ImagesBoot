@@ -68,7 +68,11 @@ HAVING cantidad_peliculas >= 1;
 
 #### 9. Obtener la lista de actores cuya película favorita haya ganado más de 3 awards. 
 ```mysql
-
+SELECT DISTINCT(ac.first_name), ac.last_name
+FROM actors ac
+INNER JOIN actor_movie ac_mo ON ac.id = ac_mo.actor_id
+INNER JOIN movies mo ON ac_mo.movie_id = mo.id
+WHERE mo.awards > 3;
 ```
 
 #### 10. Utilizar el explain plan para analizar las consultas del Ej.6 y 7.
